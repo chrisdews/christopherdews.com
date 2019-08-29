@@ -72,6 +72,44 @@ p {
   
 }
 
+.big-quote{
+  min-height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+#olivier-quote{
+  color: white;
+  font-size: 1em;
+  font-style: italic;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+
+}
+
+#olivier-name{
+  color: white;
+  font-size: 1em;
+  margin: auto;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+@media (min-width: 590px) {
+  #olivier-quote{
+    
+    font-size: 2em;
+  
+  }
+
+  #olivier-name{
+    
+    font-size: 1.5em;
+    
+  }
+}
 
 /* Position the navbar container inside the image */
 .navcontainer {
