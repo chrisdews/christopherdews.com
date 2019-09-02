@@ -40,6 +40,11 @@ body > main > div.jumbotron.bg > div.container.text-center > h3 {
   font-weight: 300;
 }
 
+.btn-secondary:hover {
+  background-color: rgb(0, 162, 255);
+}
+
+
 h2 {
   font-size: 5rem;
   line-height: 1.5;
@@ -112,6 +117,18 @@ h2 {
   margin-bottom: 60px;
 }
 
+div.container.text-center > div > p {
+  max-width: 300px;
+}
+
+div.container.text-center > h1 {
+  font-size: 2em;
+}
+
+div.container.text-center > h3 {
+  font-size: 1.5em;
+}
+
 @media (min-width: 590px) {
   #olivier-quote{
     
@@ -123,6 +140,18 @@ h2 {
     
     font-size: 1.5em;
     
+  }
+
+  div.container.text-center > div > p {
+    max-width: 1000px;
+  }
+  
+  div.container.text-center > h1 {
+    font-size: 6em;
+  }
+  
+  div.container.text-center > h3 {
+    font-size: 1.5em;
   }
 }
 
